@@ -1,0 +1,3 @@
+let vartexto = "Teste";
+let varNumero = 30;
+let varBoolean = 9 > 2;
