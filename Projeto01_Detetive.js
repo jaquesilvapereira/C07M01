@@ -28,19 +28,13 @@ if (resposta5.toUpperCase() == 'SIM') {
 
 console.log();
 
-if (soma == 0){
-  console.log('Classificação: INOCENTE');
-}
-if (soma == 1){
+if (soma <= 1){
   console.log('Classificação: INOCENTE');
 }
 if (soma == 2){
   console.log('Classificação: SUSPEITO');
 }
-if (soma == 3){
-  console.log('Classificação: CÚMPLICE');
-}
-if (soma == 4){
+if (soma == 3 || soma == 4){
   console.log('Classificação: CÚMPLICE');
 }
 if (soma == 5){
